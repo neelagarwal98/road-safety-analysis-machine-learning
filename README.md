@@ -6,12 +6,13 @@ ___
 To run the project: 
 
 ### 1)  Get the dataset
-Download the dataset from [here](https://drive.google.com/drive/folders/1qtpkY_WVMMaTwhtZlIOzrcWdyaC1Na4G?usp=drive_link). Please keep the downloaded directory in the same repository.
+Download the dataset from [here](https://catalog.data.gov/dataset/crash-reporting-drivers-data). Please keep the downloaded directory in the same repository.
 
 ### 2)  Install all the required packages
-To run the project, install the required packages from requirements.txt by running the following command in your terminal:
+To run the project, install the required packages from requirements-conda.txt and requirements-pip.txt by running the following commands in your terminal:
 ```bash
-python3 -m pip install -r requirements.txt
+conda install --file requirements-conda.txt
+pip install -r requirements-pip.txt
 ```
 
 ### 3) Data Pre-Processing
@@ -34,7 +35,7 @@ python3 main.py
 You can run the clustering and frequent pattern mining standalone by the following method:
 
 #### i) Clustering: Gaussian Mixture Model
-Run the gnn.py file. Cluster the dataset based on "Lattitude" and "Longitude" of crash sites. You can set the number of clusters using `NUMBER_OF_CLUSTERS` from **consts.py**.
+Run the gmm.py file. Cluster the dataset based on "Lattitude" and "Longitude" of crash sites. You can set the number of clusters using `NUMBER_OF_CLUSTERS` from **consts.py**.
 
 #### ii) Frequent Pattern Mining: FPgrowth
 Run the fpgrowth.py file. Set the parameters in for FPgrowth in **consts.py**
