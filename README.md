@@ -16,7 +16,7 @@ pip install -r requirements-pip.txt
 ```
 
 ### 3) Data Pre-Processing
-Use the preprocess.ipynb to preprocess the data and generate a sanitized dataset in the form of csv file.
+Use the preprocess.ipynb to preprocess the data and generate a sanitized dataset in the form of csv file:
 
 ### 4) Exploratory Data Analysis
 Use the eda.ipynb to visualize different plots.
