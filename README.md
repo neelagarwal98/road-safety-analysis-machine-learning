@@ -6,7 +6,7 @@ ___
 To run the project: 
 
 ### 1)  Get the dataset
-Download the dataset from [here](https://catalog.data.gov/dataset/crash-reporting-drivers-data). Please keep the downloaded directory in the same repository.
+Download the dataset (in<b>.csv</b>) from [here](https://catalog.data.gov/dataset/crash-reporting-drivers-data). Please keep the downloaded directory in the same repository.
 
 ### 2)  Install all the required packages
 To run the project, install the required packages from requirements-conda.txt and requirements-pip.txt by running the following commands in your terminal:
